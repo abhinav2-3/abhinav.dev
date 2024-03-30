@@ -1,5 +1,4 @@
 import { useState } from "react";
-import About from "./Components/About";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
@@ -8,6 +7,7 @@ import TechStacks from "./Components/TechStacks";
 import { projectData, miniProjectsData } from "./Components/utils/data";
 import Loader from "./Components/Loader";
 import ProgressBar from "./Components/ProgressBar";
+import About from "./Components/ui/About";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);

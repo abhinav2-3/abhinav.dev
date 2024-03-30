@@ -9,9 +9,10 @@ const Projects = ({ title, data }) => {
         {title}
       </h1>
       <motion.div className="px-4 mt-4 h-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
-        {data.map((item, index) => {
+        {data?.map((item, index) => {
           return (
             <motion.div
+              key={item.id}
               className="project_card bg-l_secondary dark:bg-d_secondary rounded-lg overflow-hidden transition-transform duration-300 hover:translate-y-3"
               initial={{ opacity: 0, y: 150 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -22,7 +23,6 @@ const Projects = ({ title, data }) => {
               }}
             >
               <ProjectCard
-                key={item.id}
                 title={item.title}
                 imgSrc={item.imgSrc}
                 hrefURL={item.hrefURL}

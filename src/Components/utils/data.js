@@ -1,3 +1,10 @@
+import { AiOutlineHome } from "react-icons/ai";
+import { IoCodeSharp } from "react-icons/io5";
+import { GiBrain } from "react-icons/gi";
+import { FaRegUserCircle } from "react-icons/fa";
+import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi";
+import { TbBrandLeetcode } from "react-icons/tb";
+
 export const projectData = [
   {
     id: 1,
@@ -79,3 +86,57 @@ export const miniProjectsData = [
 
 export const resumeURL =
   "https://drive.google.com/file/d/1udePiK4QDY03vvjWqi2LA24omEHLWLCb/view?usp=drive_link";
+
+export const navLink = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+  },
+  {
+    name: "Skills",
+    link: "#skills",
+  },
+  {
+    name: "About",
+    link: "#about",
+  },
+];
+
+export const socialLink = [
+  {
+    name: "GitHub",
+    link: "https://github.com/abhinav2-3",
+  },
+  {
+    name: "Linkedin",
+    link: "https://www.linkedin.com/in/abhinav28/",
+  },
+  {
+    name: "Leetcode",
+    link: "https://leetcode.com/abhinav2-3/",
+  },
+  {
+    name: "Instagram",
+    link: "https://instagram.com/cse.verse/",
+  },
+  {
+    name: "Twitter",
+    link: "https://x.com/abhnav_476/",
+  },
+];
+
+export const navicons = [AiOutlineHome, IoCodeSharp, GiBrain, FaRegUserCircle];
+
+export const socialIcons = [
+  FiGithub,
+  FiLinkedin,
+  TbBrandLeetcode,
+  FiInstagram,
+  FiTwitter,
+];
+
+export const strokecolor = ["#2a9d8f", "#0277b5", "#f77f00", "#b5179e", "#FFF"];
