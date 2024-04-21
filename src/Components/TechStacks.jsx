@@ -27,6 +27,7 @@ const TechStacks = () => {
             "JavaScript",
             "React Js",
             "Framer Motion",
+            "Redux Toolkit"
           ]}
         />
         <TechCard
@@ -40,7 +41,7 @@ const TechStacks = () => {
           tech={["GitHub", "Postman"]}
           reference={ref}
         />
-        <TechCard title={"Language"} tech={["Java"]} reference={ref} />
+        <TechCard title={"Language"} tech={["Java","JavaScript"]} reference={ref} />
       </motion.div>
     </div>
   );
