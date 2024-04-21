@@ -17,7 +17,7 @@ const Header = ({ onToggleMenu, showMenu }) => {
       <div>
         <a
           href="mailto:abhinavmaurya476@gmail.com"
-          className="transform transition-transform py-2 px-4 rounded gap-2 place-items-center font-bold duration-300 hover:-translate-y-1 flex bg-d_primary dark:bg-l_primary text-d_textColor dark:text-l_textColor hover:bg-d_secondary hover:dark:bg-l_secondary"
+          className="transform transition-transform py-2 px-4 rounded gap-2 place-items-center font-bold duration-300 hover:-translate-y-1 flex text-l_textColor dark:text-d_textColor bg-l_secondary dark:bg-d_secondary hover:bg-d_secondary hover:dark:bg-l_secondary"
         >
           Contact Me <FaUser size={18} />
         </a>
