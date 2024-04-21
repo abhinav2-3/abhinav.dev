@@ -13,7 +13,7 @@ export const projectData = [
       "React.js,MongoDB, Express.js, Node.js,SASS, Axios & React-Hot-Toast",
     imgSrc:
       "https://github.com/abhinav2-3/Assets/blob/master/project/amazon-clone.jpeg?raw=true",
-    hrefURL: "https://client-pearl-three.vercel.app/",
+    hrefURL: "https://shoes-kart-ecommerce.vercel.app/",
     ytLink: "https://youtu.be/JLfFLS1qhpg",
   },
   {
@@ -22,7 +22,7 @@ export const projectData = [
     techStack: "React.js,MongoDB, Express.js, Node.js,Tailwind, Axios",
     imgSrc:
       "https://raw.githubusercontent.com/abhinav2-3/Assets/master/project/zomato-clone.webp",
-    hrefURL: "https://food-delivery-frontend-abhinav2-3.vercel.app/",
+    hrefURL: "https://cloud-kitchen-ivory.vercel.app/",
     ytLink: "https://youtu.be/Qvyv7JpONBY",
   },
   {
@@ -82,10 +82,28 @@ export const miniProjectsData = [
     hrefURL: "https://github.com/abhinav2-3/Weather-App/tree/master",
     ytLink: "https://youtu.be/Em8Rqn4W7cQ",
   },
+  {
+    id: 5,
+    title: "Motion DOCS",
+    techStack: "React.js, Famer-Motionn and Tailwind CSS",
+    imgSrc:
+      "https://img.etimg.com/thumb/msid-98253956,width-300,height-225,imgsize-2636,resizemode-75/google-docs-in-dark-mode-heres-how-to-enable-the-feature-on-google-chrome-microsoft-edge-android-or-iphone.jpg",
+    hrefURL: "https://draggable-docs-ten.vercel.app/",
+    ytLink: "https://youtu.be/Em8Rqn4W7cQ",
+  },
+  {
+    id: 6,
+    title: "Losangels Mountain",
+    techStack: "HTML5, CSS3 and JavaScript",
+    imgSrc:
+      "https://github.com/abhinav2-3/Coalition-Task/blob/da07a7d53f509cae26960c5cd0af33c8c778e7a5/images/lam-hero-image.png?raw=true",
+    hrefURL: "https://abhinav2-3.github.io/Coalition-Task/",
+    ytLink: "https://youtu.be/Em8Rqn4W7cQ",
+  },
 ];
 
 export const resumeURL =
-  "https://drive.google.com/file/d/1udePiK4QDY03vvjWqi2LA24omEHLWLCb/view?usp=drive_link";
+  "https://drive.google.com/file/d/1X6Cvi4GZfZLI6wJ_EVX7H5aiuDxwpx2d/view";
 
 export const navLink = [
   {
@@ -121,7 +139,7 @@ export const socialLink = [
   },
   {
     name: "Instagram",
-    link: "https://instagram.com/cse.verse/",
+    link: "https://instagram.com/nx.abhinav/",
   },
   {
     name: "Twitter",
