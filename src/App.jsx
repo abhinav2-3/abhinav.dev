@@ -34,7 +34,7 @@ function App() {
               <Projects title={"Projects"} data={projectData} />
               <TechStacks />
               <About />
-              <Projects title={"Mini Projects"} data={miniProjectsData} />
+              <Projects title={"Practice Projects"} data={miniProjectsData} />
             </div>
           </main>
         </div>
