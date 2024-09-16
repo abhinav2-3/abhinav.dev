@@ -10,7 +10,7 @@ export const projectData = [
     id: 1,
     title: "ShoesKart",
     techStack:
-      "React.js,MongoDB, Express.js, Node.js,SASS, Axios & React-Hot-Toast",
+      "This is Shoes specific E-Commerce website, End2End Features like Payment,Filters, Single Product View.",
     imgSrc:
       "https://github.com/abhinav2-3/Assets/blob/master/project/amazon-clone.jpeg?raw=true",
     hrefURL: "https://shoes-kart-ecommerce.vercel.app/",
@@ -19,25 +19,29 @@ export const projectData = [
   {
     id: 2,
     title: "Cloud Kitchen",
-    techStack: "React.js,MongoDB, Express.js, Node.js,Tailwind, Axios",
+    techStack: "This is an Food E-commerce website similar to swiggy.",
     imgSrc:
       "https://raw.githubusercontent.com/abhinav2-3/Assets/master/project/zomato-clone.webp",
     hrefURL: "https://cloud-kitchen-ivory.vercel.app/",
     ytLink: "https://youtu.be/Qvyv7JpONBY",
   },
-    {
+  {
     id: 3,
-    title: "Atom.io",
-    techStack: "React.js, MongoDB, Express.js, Node.js, Tailwind, Redux",
+    title: "PayTM Wallet",
+    techStack:
+      "This is a wallet app. Features : Add and Transfer Money, Transaction History, Payment Protocols",
     imgSrc:
-      "https://www.etondigital.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/01/social-network-for-developer-01.png.webp",
-    hrefURL: "https://dev-io-dun.vercel.app/",
-    ytLink: "https://dev-io-dun.vercel.app/",
+      "https://pbs.twimg.com/media/FsSfc1WXwAEditp?format=jpg&name=4096x4096",
+    hrefURL:
+      "https://www.linkedin.com/posts/abhinav28_nextjs-typescript-prisma-activity-7238750203682381825-c0E1?utm_source=share&utm_medium=member_desktop",
+    ytLink:
+      "https://www.linkedin.com/posts/abhinav28_nextjs-typescript-prisma-activity-7238750203682381825-c0E1?utm_source=share&utm_medium=member_desktop",
   },
   {
     id: 4,
     title: "Crypto Coin",
-    techStack: "React.js, SASS, Chart.js, Axios & HTML5",
+    techStack:
+      "A Simple Crypto website which shows detail of all Crypto Coins with Chart Graph",
     imgSrc:
       "https://github.com/abhinav2-3/Assets/blob/master/project/crypto-coin.jpg?raw=true",
     hrefURL: "https://crypto-app-roan-seven.vercel.app/",
@@ -49,7 +53,7 @@ export const miniProjectsData = [
   {
     id: 1,
     title: "Swift Cart",
-    techStack: "React.js,MongoDB, Express.js, Node.js,SASS, & Axios",
+    techStack: "A Practice project of an E-commerce website",
     imgSrc:
       "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/3353deec-9b52-11e6-b34b-00163ec9f5fa/3269793528/flipkart-online-shopping-app-india-screenshot.jpg",
     hrefURL: "https://switcart-abhinav2-3.vercel.app/",
@@ -58,7 +62,7 @@ export const miniProjectsData = [
   {
     id: 2,
     title: "Real Estate",
-    techStack: "React.js, HTML5 & CSS",
+    techStack: "Landing Page of a Real Estate website",
     imgSrc:
       "https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/8367ad40ecf0474eb436a0852ad79e5f.jpg",
     hrefURL: "https://realestate-beta-three.vercel.app/",
@@ -67,7 +71,7 @@ export const miniProjectsData = [
   {
     id: 3,
     title: "Music Player",
-    techStack: "HTML5, CSS & Javascript",
+    techStack: "A simple Music Player",
     imgSrc:
       "https://s3-alpha.figma.com/hub/file/2919254982/d3a3f23b-dca8-4757-baf9-5100a54cb0dc-cover.png",
     hrefURL: "https://github.com/abhinav2-3/iPhone-Music-Player",
@@ -76,7 +80,8 @@ export const miniProjectsData = [
   {
     id: 4,
     title: "Weather App",
-    techStack: "HTML5, CSS, Javascript & API",
+    techStack:
+      "A weather website which tells you the weather condition of your city.",
     imgSrc:
       "https://images.macrumors.com/t/p1GEgEi3DylyV8R3Ek1C2MO9qyM=/800x0/article-new/2021/08/iOS-15-Weather-Feature.jpg?lossy",
     hrefURL: "https://github.com/abhinav2-3/Weather-App/tree/master",

@@ -1,7 +1,6 @@
-import React from "react";
-import { PiMonitorPlayFill } from "react-icons/pi";
-import { FaExternalLinkAlt } from "react-icons/fa";
-
+/* eslint-disable react/prop-types */
+import { GoArrowUpRight } from "react-icons/go";
+import { FaYoutube } from "react-icons/fa";
 const ProjectCard = ({ title, hrefURL, imgSrc, techStack, ytLink }) => {
   return (
     <div className="flex flex-col h-auto text-l_textColor dark:text-d_textColor overflow-hidden gap-2 overflow-ellipsis">
@@ -22,7 +21,7 @@ const ProjectCard = ({ title, hrefURL, imgSrc, techStack, ytLink }) => {
             className="flex place-items-center text-sm bg-l_primary dark:bg-d_primary py-1 px-4 rounded-2xl border duration-300 transition-all hover:text-blue-500"
             rel="noreferrer"
           >
-            Demo <FaExternalLinkAlt size={15} className="ml-2" />
+            Live <GoArrowUpRight size={16} className="ml-2 " />
           </a>
           <a
             href={ytLink || "/"}
@@ -30,7 +29,7 @@ const ProjectCard = ({ title, hrefURL, imgSrc, techStack, ytLink }) => {
             className="flex place-items-center text-sm py-1 px-4 rounded-2xl duration-300 transition-all hover:border hover:text-red-500"
             rel="noreferrer"
           >
-            Play <PiMonitorPlayFill size={16} className="ml-2 " />
+            Video <FaYoutube size={16} className="ml-2 " />
           </a>
         </div>
       </div>

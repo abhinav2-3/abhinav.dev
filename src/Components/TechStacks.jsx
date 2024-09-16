@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import TechCard from "./Card/TechCard";
 import { motion } from "framer-motion";
 
@@ -20,28 +20,33 @@ const TechStacks = () => {
           reference={ref}
           title={"Frontend"}
           tech={[
-            "HTML5",
-            "CSS",
-            "SASS",
+            "Next Js",
             "Tailwind",
             "JavaScript",
             "React Js",
-            "Framer Motion",
-            "Redux Toolkit"
+            "Redux Toolkit",
           ]}
         />
         <TechCard
           title={"Backend"}
-          tech={["Node Js", "Express Js", "Auth0"]}
+          tech={["Node Js", "Express Js", "Auth0", "Prisma", "NextAuth"]}
           reference={ref}
         />
-        <TechCard title={"Database"} tech={["MongoDB"]} reference={ref} />
+        <TechCard
+          title={"Database"}
+          tech={["MongoDB", "PostgreSQL"]}
+          reference={ref}
+        />
         <TechCard
           title={"Tools"}
-          tech={["GitHub", "Postman"]}
+          tech={["GitHub", "Postman", "Prisma", "Framer Motion"]}
           reference={ref}
         />
-        <TechCard title={"Language"} tech={["Java","JavaScript"]} reference={ref} />
+        <TechCard
+          title={"Language"}
+          tech={["Java", "JavaScript", "TypeScript"]}
+          reference={ref}
+        />
       </motion.div>
     </div>
   );
