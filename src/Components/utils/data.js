@@ -33,7 +33,7 @@ export const projectData = [
     imgSrc:
       "https://pbs.twimg.com/media/FsSfc1WXwAEditp?format=jpg&name=4096x4096",
     hrefURL:
-      "https://www.linkedin.com/posts/abhinav28_nextjs-typescript-prisma-activity-7238750203682381825-c0E1?utm_source=share&utm_medium=member_desktop",
+      "https://paytm-user-app-4g26.vercel.app/",
     ytLink:
       "https://www.linkedin.com/posts/abhinav28_nextjs-typescript-prisma-activity-7238750203682381825-c0E1?utm_source=share&utm_medium=member_desktop",
   },
