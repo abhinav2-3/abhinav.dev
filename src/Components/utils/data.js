@@ -1,6 +1,6 @@
 import { AiOutlineHome } from "react-icons/ai";
 import { IoCodeSharp } from "react-icons/io5";
-import { GiBrain } from "react-icons/gi";
+import { GiBrain, GiSkills } from "react-icons/gi";
 import { FaRegUserCircle } from "react-icons/fa";
 import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi";
 import { TbBrandLeetcode } from "react-icons/tb";
@@ -32,8 +32,7 @@ export const projectData = [
       "This is a wallet app. Features : Add and Transfer Money, Transaction History, Payment Protocols",
     imgSrc:
       "https://pbs.twimg.com/media/FsSfc1WXwAEditp?format=jpg&name=4096x4096",
-    hrefURL:
-      "https://paytm-user-app-4g26.vercel.app/",
+    hrefURL: "https://paytm-user-app-4g26.vercel.app/",
     ytLink:
       "https://www.linkedin.com/posts/abhinav28_nextjs-typescript-prisma-activity-7238750203682381825-c0E1?utm_source=share&utm_medium=member_desktop",
   },
@@ -124,6 +123,10 @@ export const navLink = [
     link: "#skills",
   },
   {
+    name: "Experience ",
+    link: "#experience ",
+  },
+  {
     name: "About",
     link: "#about",
   },
@@ -148,11 +151,17 @@ export const socialLink = [
   },
   {
     name: "Twitter",
-    link: "https://x.com/abhnav_476/",
+    link: "https://x.com/abhinav_476/",
   },
 ];
 
-export const navicons = [AiOutlineHome, IoCodeSharp, GiBrain, FaRegUserCircle];
+export const navicons = [
+  AiOutlineHome,
+  IoCodeSharp,
+  GiBrain,
+  GiSkills,
+  FaRegUserCircle,
+];
 
 export const socialIcons = [
   FiGithub,

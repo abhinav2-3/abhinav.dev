@@ -1,4 +1,3 @@
-import React from "react";
 import {
   navLink,
   navicons,
@@ -33,6 +32,7 @@ const Menu = () => {
             <a
               href={item.link}
               key={item.name}
+              target="_blank"
               className="flex items-center placeholder:text-info gap-5 text-md transform transition-transform duration-300 hover:-translate-y-2 p-1"
             >
               <Icon size={25} stroke={strokeColor} /> {item.name}

@@ -8,6 +8,7 @@ import { projectData, miniProjectsData } from "./Components/utils/data";
 import Loader from "./Components/Loader";
 import ProgressBar from "./Components/ProgressBar";
 import About from "./Components/ui/About";
+import Experience from "./Components/Experience";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -32,6 +33,7 @@ function App() {
             <Hero />
             <div className="p-4 overflow-hidden">
               <Projects title={"Projects"} data={projectData} />
+              <Experience />
               <TechStacks />
               <About />
               <Projects title={"Practice Projects"} data={miniProjectsData} />

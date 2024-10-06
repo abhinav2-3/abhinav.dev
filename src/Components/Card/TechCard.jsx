@@ -1,8 +1,8 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import cn from "classnames";
 import { motion } from "framer-motion";
 
-const TechCard = ({ title, tech, reference }) => {
+const TechCard = ({ title, tech }) => {
   return (
     <motion.div
       className="lg:h-72 rounded-md flex flex-col flex-1 place-items-start gap-2 p-4 text-d_primary dark:text-l_primary bg-l_secondary dark:bg-d_secondary"
