@@ -17,15 +17,6 @@ export const projectData = [
     ytLink: "https://youtu.be/JLfFLS1qhpg",
   },
   {
-    id: 2,
-    title: "Cloud Kitchen",
-    techStack: "This is an Food E-commerce website similar to swiggy.",
-    imgSrc:
-      "https://raw.githubusercontent.com/abhinav2-3/Assets/master/project/zomato-clone.webp",
-    hrefURL: "https://cloud-kitchen-ivory.vercel.app/",
-    ytLink: "https://youtu.be/Qvyv7JpONBY",
-  },
-  {
     id: 3,
     title: "PayTM Wallet",
     techStack:
@@ -36,6 +27,16 @@ export const projectData = [
     ytLink:
       "https://www.linkedin.com/posts/abhinav28_nextjs-typescript-prisma-activity-7238750203682381825-c0E1?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    id: 2,
+    title: "Cloud Kitchen",
+    techStack: "This is an Food E-commerce website similar to swiggy.",
+    imgSrc:
+      "https://raw.githubusercontent.com/abhinav2-3/Assets/master/project/zomato-clone.webp",
+    hrefURL: "https://cloud-kitchen-ivory.vercel.app/",
+    ytLink: "https://youtu.be/Qvyv7JpONBY",
+  },
+
   {
     id: 4,
     title: "Crypto Coin",
@@ -49,6 +50,24 @@ export const projectData = [
 ];
 
 export const miniProjectsData = [
+  {
+    id: 7,
+    title: "Job Preview Form",
+    techStack: "It is Frontend Project which is a live Form Preview",
+    imgSrc:
+      "https://github.com/abhinav2-3/Assets/blob/master/Screenshot%202024-11-08%20202235.png?raw=true",
+    hrefURL: "https://tif-task-psi.vercel.app/",
+    ytLink: "https://github.com/abhinav2-3/TIF-Task-2.git",
+  },
+  {
+    id: 8,
+    title: "Food Vlogging",
+    techStack:
+      "It is Frontend Project which is a simple UI with some animation",
+    imgSrc: "/image/food-vlogging.png",
+    hrefURL: "https://tif-task-psi.vercel.app/",
+    ytLink: "https://github.com/abhinav2-3/TIF-Task-2.git",
+  },
   {
     id: 1,
     title: "Swift Cart",

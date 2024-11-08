@@ -32,11 +32,11 @@ function App() {
             <Header onToggleMenu={menuHandler} showMenu={showMenu} />
             <Hero />
             <div className="p-4 overflow-hidden">
-              <Projects title={"Projects"} data={projectData} />
+              <Projects title={"Full Stack Projects"} data={projectData} />
+              <Projects title={"Practice Projects"} data={miniProjectsData} />
               <Experience />
               <TechStacks />
               <About />
-              <Projects title={"Practice Projects"} data={miniProjectsData} />
             </div>
           </main>
         </div>
