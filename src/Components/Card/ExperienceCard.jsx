@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 
-const ExperienceCard = () => {
+const ExperienceCard = ({ data }) => {
   return (
     <div className="w-full pb-4 flex flex-col md:flex-row items-center justify-evenly text-d_primary dark:text-l_primary dark:bg-d_secondary bg-l_secondary">
       <motion.aside
@@ -9,7 +10,7 @@ const ExperienceCard = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.5 }}
       >
-        <img src="/image/Rablo.png" alt="Rablo.in" className="rounded-lg" />
+        <img src={data.imgSrc} alt={data.company} className="rounded-lg" />
       </motion.aside>
       <motion.aside
         className="flex flex-1 flex-col h-full px-8 items-center md:items-start"
@@ -17,22 +18,16 @@ const ExperienceCard = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.5 }}
       >
-        <h1 className="text-2xl font-black pb-4">Backend Developer Intern</h1>
+        <h1 className="text-2xl font-black pb-4">{data.title}</h1>
         <h2 className="text-xl font-bold dark:text-gray-200 text-slate-800">
-          Backend Team Leader
+          {data.subTitle}
         </h2>
-        <div className="pt-4 flex flex-col font-semibold text-slate-700 dark:text-gray-300">
-          <span>&bull; Solved 40+ Bugs across all Modules.</span>
-          <span>&bull; Created 10+ APIs across all Modules.</span>
-          <span>&bull; Worked on 1-2 new Features from Scratch</span>
-          <span>
-            &bull; Communicated, Learned and great experience with other teams
-            like <br /> <b> Frontend, Flutter, DevOps, UI/UX, HR, etc.</b>
-          </span>
-          <span>
-            &bull; Have a guidance with our company&apos;s{" "}
-            <b>Founder and HODs.</b>
-          </span>
+        <div className="pt-4 flex flex-col font-semibold text-ellipsis text-slate-700 dark:text-gray-300">
+          <span>&bull; {data.desc1}</span>
+          {data.desc2 && <span>&bull; {data.desc2}</span>}
+          {data.desc3 && <span>&bull; {data.desc3}</span>}
+          {data.desc4 && <span>&bull; {data.desc4}</span>}
+          {data.desc5 && <span>&bull; {data.desc5}</span>}
         </div>
       </motion.aside>
     </div>

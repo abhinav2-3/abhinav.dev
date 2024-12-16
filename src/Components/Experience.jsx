@@ -1,5 +1,6 @@
 import ExperienceCard from "./Card/ExperienceCard";
 import { motion } from "framer-motion";
+import { ExperienceData } from "./utils/data";
 
 const Experience = () => {
   return (
@@ -12,7 +13,9 @@ const Experience = () => {
       <h1 className="text-d_primary dark:text-l_primary text-xl font-bold pb-4">
         Experience
       </h1>
-      <ExperienceCard />
+      {ExperienceData?.map((data, i) => {
+        return <ExperienceCard key={i} data={data} />;
+      })}
     </motion.section>
   );
 };

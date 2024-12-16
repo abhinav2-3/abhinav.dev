@@ -5,6 +5,33 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi";
 import { TbBrandLeetcode } from "react-icons/tb";
 
+export const ExperienceData = [
+  {
+    company: "Rablo.in",
+    imgSrc: "/image/Rablo.png",
+    title: "Backend Developer Intern",
+    subTitle: "Backend Team Leader",
+    desc1: "Solved 40+ Bugs across all Modules.",
+    desc2: "Created 10+ APIs across all Modules.",
+    desc3: "Worked on 1-2 new Features from Scratch",
+    desc4:
+      "Communicated, Learned and great experience with other teams like Frontend, Flutter, DevOps, UI/UX, HR, etc.",
+    desc5: "Have a guidance with our company Founder and HODs.",
+  },
+  {
+    company: "FitnEarn",
+    imgSrc: "/image/FitnEarn.jpg",
+    title: "MERN Stack Developer Intern",
+    subTitle: "Working at FitnEarn",
+    desc1: "Working on Multiple Payment Gateway Integration",
+    desc2: "",
+    desc3: "",
+    desc4:
+      "Communicating and Learning with other teams like Flutter, DevOps, UI/UX, and Testing Team.",
+    desc5: "Have a guidance with our company Founder and HODs.",
+  },
+];
+
 export const projectData = [
   {
     id: 1,
