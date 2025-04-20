@@ -49,8 +49,8 @@ export const projectData = [
     techStack:
       "This is a wallet app. Features : Add and Transfer Money, Transaction History, Payment Protocols",
     imgSrc:
-      "https://pbs.twimg.com/media/FsSfc1WXwAEditp?format=jpg&name=4096x4096",
-    hrefURL: "https://paytm-user-app-4g26.vercel.app/",
+      "https://scontent.flko10-1.fna.fbcdn.net/v/t39.30808-6/464173761_8207204736057969_5083156863011162860_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=h9kIY5Rzi14Q7kNvwF_ksKx&_nc_oc=Adm1Cds-zTPPa4Ta_0tR4uN9HEp4RQVYwDd5SzNt_NtYmsDZ2JOZTu1HGWbWgrrqvbpNqbUXPgNSPPmAXMA_v6rb&_nc_zt=23&_nc_ht=scontent.flko10-1.fna&_nc_gid=sG3zlPDfWNi5Bfo1bNjhoQ&oh=00_AfFPUYSGlIukYKUBQWsBsbI_RPxqMM1hMYhMkb77HNK_Qg&oe=680AC990",
+    hrefURL: "https://paytm-user-app-wine.vercel.app/",
     ytLink:
       "https://www.linkedin.com/posts/abhinav28_nextjs-typescript-prisma-activity-7238750203682381825-c0E1?utm_source=share&utm_medium=member_desktop",
   },
